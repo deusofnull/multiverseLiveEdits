@@ -1,0 +1,16 @@
+{
+	"name": "multiverse.black",
+    	"description": "collaborative art (outer) space",
+
+    	"authors": [
+        {
+            "name": "Will Acheson",
+            "email": "willyach07@gmail.com"
+        }
+    	],
+    	"require" : {
+        	"slim/slim" :  "2.*",
+        	"twig/twig" : "~1.0",
+        	"slim/views": "0.1.3"        	
+    	}
+}

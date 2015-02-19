@@ -1,0 +1,14 @@
+{
+  "name": "multiverse web app",
+  "version": "0.0.1",
+  "description": "a transdimensional experimentation engine for collaboartive multi medium artists",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "will acheson",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "^4.11.2"
+  }
+}
