@@ -1,0 +1,55 @@
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <style type="text/css">
+  		body{
+  background-color: black;
+}
+
+#blinkText {
+	font-size: 200px;
+}
+
+#blink {
+  -webkit-animation-name: blinker;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+   font-family: lobster , cursive;
+  text-align: center;
+}
+
+@-webkit-keyframes blinker {
+    0% { color: red; 
+          text-shadow: red 0px 0px 20px;
+          font-size: 500%}
+    50% { color: blue;
+           text-shadow: blue 0px 0px 20px;
+            font-size: 500%;}
+    
+    100% { color: red;
+           text-shadow: red 0px 0px 20px;
+            font-size: 500%;}
+}
+
+@-webkit-keyframes  woosher {
+  0% {
+    margin-left: 100%;
+    width: 300%;
+  }
+  100% {
+    margin-left: 50%;
+    width: 100%;
+  }
+}
+
+
+  </style>
+</head>
+
+<body> 
+  <div class="open">
+    <div id='blink' class='blink'> 
+      <p id='blinkText' >OPEN</p>
+      </div>
+  </div>
+
+</body> 
